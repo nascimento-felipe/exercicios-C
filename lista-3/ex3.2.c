@@ -3,9 +3,8 @@
 
 int main() {
 
-    for(int i = 0; i <= 50;){
+    for(int i = 0; i <= 50; i += 2){
         printf(" %d", i);
-        i = i + 2;
     }
 
     return 0;
