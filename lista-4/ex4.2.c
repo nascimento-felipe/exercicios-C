@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main() {
+    
     int array[5];
     int multiplicador;
     int arrayMult[5];
