@@ -8,9 +8,9 @@
 - [x] lista 1
 - [x] lista 2
 - [x] lista 3
-- [] lista 4
-- [] lista 5
-- [] lista 6
-- [] lista 7
+- [ ] lista 4
+- [ ] lista 5
+- [ ] lista 6
+- [ ] lista 7
 
 #### LICENSE: [MIT](https://github.com/nascimento-felipe/exercicios-C/blob/main/LICENSE)
