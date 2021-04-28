@@ -20,22 +20,27 @@ int main() {
         if(array[i] == numeroBuscador){
             ocorrencias++;
 
-            if(arrayOco[0] == 0){
-                arrayOco[0] = i + 1;
-            } else if(arrayOco[1] == 0){
-                arrayOco[1] = i + 1;
-            } else if(arrayOco[2] == 0){
-                arrayOco[2] = i + 1;
-            } else if(arrayOco[3] == 0){
-                arrayOco[3] = i + 1;
-            } else {
-                arrayOco[4] = i + 1;
+            for(int j = 0; j < 5; j++){
+                if(arrayOco[j] == 0){
+                    arrayOco[j] = i + 1;
+                    printf("%d", arrayOco[j]);
+                    j = 5;
+                }
+            // if(arrayOco[0] == 0){
+            //     arrayOco[0] = i + 1;
+            // } else if(arrayOco[1] == 0){
+            //     arrayOco[1] = i + 1;
+            // } else if(arrayOco[2] == 0){
+            //     arrayOco[2] = i + 1;
+            // } else if(arrayOco[3] == 0){
+            //     arrayOco[3] = i + 1;
+            // } else {
+            //     arrayOco[4] = i + 1;
+            // }
             }
 
         }
     }
-
-    printf("%d\n%d\n%d\n%d\n%d\n", arrayOco[0], arrayOco[1], arrayOco[2], arrayOco[3], arrayOco[4]);
 
     if(ocorrencias == 0){
         printf("O array nao contem o valor %d.", numeroBuscador);
