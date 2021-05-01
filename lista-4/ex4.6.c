@@ -26,17 +26,6 @@ int main() {
                     printf("%d", arrayOco[j]);
                     j = 5;
                 }
-            // if(arrayOco[0] == 0){
-            //     arrayOco[0] = i + 1;
-            // } else if(arrayOco[1] == 0){
-            //     arrayOco[1] = i + 1;
-            // } else if(arrayOco[2] == 0){
-            //     arrayOco[2] = i + 1;
-            // } else if(arrayOco[3] == 0){
-            //     arrayOco[3] = i + 1;
-            // } else {
-            //     arrayOco[4] = i + 1;
-            // }
             }
 
         }

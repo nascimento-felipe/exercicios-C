@@ -4,7 +4,7 @@
 int main() {
     
     int array[5];
-    int arrayCopias[5] = { -10, -10, -10, -10, -10};
+    int arrayCopias[5] = { 0 };
     int existemCopias = 0;
     int numeroMaior;
     int indiceArrayCopia = 0;
@@ -20,16 +20,14 @@ int main() {
     for(int i = 0; i < 5; i++){
         if(array[i] > numeroMaior){
             existemCopias++;
-            arrayCopias[i] = array[i];
+            arrayCopias[indiceArrayCopia] = array[i];
+            indiceArrayCopia++;
         }
     }
 
     if(existemCopias > 0){   
-        for(int i = 0; i < 5; i++){
-            if(arrayCopias[i] != -10){
-                printf("arrayCopia[%d] = %d\n", indiceArrayCopia, arrayCopias[i]);
-                indiceArrayCopia++;
-            }
+        for(int i = 0; i < indiceArrayCopia; i++){
+                printf("arrayCopia[%d] = %d\n", i, arrayCopias[i]);
         }
     } else {
         printf("Nao houve copia!");
