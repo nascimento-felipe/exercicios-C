@@ -17,7 +17,7 @@ int main() {
     scanf("%d", &n);
 
     // saída do programa, se o número estiver dentro da faixa estabelecida
-    if(n > 1 && n < 9999){
+    if(n >= 1 && n <= 9999){
         printf("Digito verificador de %d: %d\n", n, calculaDigito(n));
     }
 
