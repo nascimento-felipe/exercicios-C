@@ -1,6 +1,7 @@
 <h1 align="center"> exercicios-C </h1>
 
-<p align="center">Esse repositório foi feito para que eu tenha controle sobre meus exercícios e para backup. As marcações em x são o que estão feitos, e os com "~" é o que estou fazendo atualmente</p>
+<p align="center">Esse repositório foi feito para que eu tenha controle sobre meus exercícios e para backup.</p>
+<p align="center">PS: os nomes dos commits estão estranhos e em inglês/português, mas eu vou consertar, prometo 😳</p>
 <p align="center">Feel free to use it! :)</p>
 
 ## Done:
