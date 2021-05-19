@@ -12,7 +12,7 @@
 - [x] lista 4
 - [x] lista 5
 - [x] lista 6
-- [ ] lista 7
+- [x] lista 7
 - [ ] lista 8
 - [ ] lista 9
 - [ ] lista 10
