@@ -25,14 +25,14 @@ int main() {
     for(int i = 0; i < 5; i++){
         printf("%s - %s: ", palavras[i][0], palavras[i][1]);
 
-        if((palavras[i][0][0]) == (palavras[i][1][0])) {
+        if(strcmp(palavras[i][0], palavras[i][1]) == 0) {
             printf("IGUAIS\n");
 
-        } else if((palavras[i][0][0]) > (palavras[i][1][0])){
-            printf("ORDEM DECRESCENTE\n");
+        } else if(strcmp(palavras[i][0], palavras[i][1]) < 0){
+            printf("ORDEM CRESCENTE\n");
 
         } else {
-            printf("ORDEM CRESCENTE\n");
+            printf("ORDEM DECRESCENTE\n");
         }
     }
 
