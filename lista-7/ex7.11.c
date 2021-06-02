@@ -71,7 +71,7 @@ int obtemNumero( int n ) {
         pelo valor da casa anterior, e.g.: Dezena de Milhar * 1000
         ou Centena * 10. Fazendo isso eu consigo o valor do número real
         e também não conto a "unidade", que é o dígito verificador.
-    */ 
+    */
     deM *= 1000;
     mil *= 100;
     cen *= 10;
@@ -84,24 +84,7 @@ int obtemNumero( int n ) {
 
 int obtemDigito( int n ) {
 
-    int digito;
-
-    if(n / 10000 > 0) {
-        n = n % 10000;
-    } 
-    if(n / 1000 > 0) {
-        n = n % 1000;
-    }
-    if(n / 100 > 0) {
-        n =  n % 100;
-    }
-    if(n / 10 > 0) {
-        n = n % 10;
-    }
-
-    digito = n;
-
-    return digito;
+    return n % 10;
 }
 
 int calculaDigito( int n ){
@@ -150,7 +133,7 @@ bool numeroCorreto( int n ){
 
     int numeroSozinho = obtemNumero(n);
     int digitoDigitado = obtemDigito(n);
-    int digitoReal = calculaDigito(numeroSozinho); 
+    int digitoReal = calculaDigito(numeroSozinho);
 
     if(digitoReal != digitoDigitado){
         return false;
