@@ -28,7 +28,7 @@ int main() {
 
 void imprimirCentralizado(const char *str) {
 
-    for(int i = 0; i < 40; i++){
+    for(int i = 0; i < 40 - strlen(str); i++){
         printf(" ");
     }
 
