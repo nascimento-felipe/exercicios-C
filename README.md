@@ -14,7 +14,7 @@
 - [x] lista 6 - Biblioteca Matemática
 - [x] lista 7 - Funções e Métodos
 - [x] lista 8 - Ponteiros
-- [ ] lista 9 - Strings
+- [x] lista 9 - Strings
 - [ ] lista 10 - Structs (estruturas)
 - [ ] lista 11 - Uniões e Enumerações
 - [ ] lista 13 - Arquivos
