@@ -31,7 +31,7 @@ int main() {
     // saída do printf e depois a verificação do intervalo
     // do início e fim
     printf("\n\nRecorte: ");
-    if(inicio > fim || strlen(frase) < fim){
+    if(inicio > fim || strlen(frase) < fim || strlen(frase) < inicio){
         printf("%s", frase);
     } else {
         // invocação da função de corte
