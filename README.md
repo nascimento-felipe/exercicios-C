@@ -15,8 +15,8 @@
 - [x] lista 7 - Funções e Métodos
 - [x] lista 8 - Ponteiros
 - [x] lista 9 - Strings
-- [ ] lista 10 - Structs (estruturas)
-- [ ] lista 11 - Uniões e Enumerações
+- [x] lista 10 - Structs (estruturas)
+- [x] lista 11 - Uniões e Enumerações
 - [ ] lista 13 - Arquivos
 - [ ] lista 14 - Recursividade
 
